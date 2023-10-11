@@ -1,10 +1,9 @@
 # Exotel Calls & SMS
 
-![](extras/Exotel-Call.png)
+![](extras/call-preview.jpeg)
 ![](extras/Exotel-SMS.png)
 
 ## Description
-
 This plug-in allows for Exotel calls to be made or SMSes to be sent from within a SurveyCTO form. 
 
 [![Download now](extras/download-button.png)](https://github.com/J-PAL-South-Asia/scto-exotel/raw/master/exotel-dialer.fieldplugin.zip)
@@ -28,18 +27,18 @@ To use the plug-in as-is, download the [exotel-dialer.fieldplugin.zip](https://g
 
 The *appearance* specifications for calling and SMS are different. Please refer to both of these in the test form in [extras/test-form](https://github.com/J-PAL-South-Asia/scto-exotel/tree/master/extras/test-form). 
 
-| Key | Value |
-| --- | --- |
-| `fromNumber` | This is the phone number of the caller. Value should either be pulled from a pre-loaded list or through an input field. Should be 10 digits and exclude the preceding '0' or '+91'.|
-| `toNumber` | This is the phone number to be dialed. Should be 10 digits and exclude the preceding '0' or '+91'.|
-| `apikey` | This is an API credential specific to your Exotel account (see below).|
-|`apitoken`| Also an API credential to be copied from your Exotel Account.|
-|`accountSid`|This is your Exotel account SID.|
-|`calledID`|This is the ExoPhone number (Exotel virtual number) that you want to use for calling. If using a landline ExoPhone, leave the first 0 in the number.|
-|`recording`| This specifies whether calls should be recorded or not. [=1] means yes, calls should be recorded and [=0] means no, calls should not be recorded. Specify recording=1 only if you have IRB approvals for recording calls.|
-|`displaynumber`| This is a security parameter that lets you choose if the respondent number should be displayed to the enumerator or not. When [=0], the respondent number is **not** displayed on the screen. This is only useful when pulling phone numbers from a preloads .csv.|
-|`msgBody`| Specify the SurveyCTO field name from where the SMS text needs to be pulled. You can preload the text into the form so that enumerators do not have to type it out.|
-|`type="sms"`| This specifies that the plug-is being used for SMS. Use it exactly as specified here.|
+| Key             | Value                                                                                                                                                                                                                                                              |
+| --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| `fromNumber`    | This is the phone number of the caller. Value should either be pulled from a pre-loaded list or through an input field. Should be 10 digits and exclude the preceding '0' or '+91'.                                                                                |
+| `toNumber`      | This is the phone number to be dialed. Should be 10 digits and exclude the preceding '0' or '+91'.                                                                                                                                                                 |
+| `apikey`        | This is an API credential specific to your Exotel account (see below).                                                                                                                                                                                             |
+| `apitoken`      | Also an API credential to be copied from your Exotel Account.                                                                                                                                                                                                      |
+| `accountSid`    | This is your Exotel account SID.                                                                                                                                                                                                                                   |
+| `callerId`      | This is the ExoPhone number (Exotel virtual number) that you want to use for calling. If using a landline ExoPhone, leave the first 0 in the number.                                                                                                               |
+| `recording`     | This specifies whether calls should be recorded or not. [=1] means yes, calls should be recorded and [=0] means no, calls should not be recorded. Specify recording=1 only if you have IRB approvals for recording calls.                                          |
+| `displaynumber` | This is a security parameter that lets you choose if the respondent number should be displayed to the enumerator or not. When [=0], the respondent number is **not** displayed on the screen. This is only useful when pulling phone numbers from a preloads .csv. |
+| `msgBody`       | Specify the SurveyCTO field name from where the SMS text needs to be pulled. You can preload the text into the form so that enumerators do not have to type it out.                                                                                                |
+| `type="sms"`    | This specifies that the plug-is being used for SMS. Use it exactly as specified here.                                                                                                                                                                              |
 
 ### Exotel API and other credentials 
 To access all Exotel API credentials, go to the ‘API’ page in the ‘Settings’ section. This is accessible to account administrators. The ExoPhone numbers can be found in the ‘ExoPhones’ page under the ‘Admin’ section on Exotel.

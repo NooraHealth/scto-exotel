@@ -1,24 +1,96 @@
-.exotel-container {
-    margin: .5rem;
-    padding: .5rem;
-    border: 1px solid #639c33;
-    background-color: rgba(99,156,51,.2);
+body {
+    /*   background-color: #f5f5f5; */
+    margin: 0;
+    padding: 0;
 }
-.btn {
+
+.container {
+    font-family: Roboto, Arial, sans-serif;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    /* background-color: #fff; */
+    border-radius: 4px;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 1px;
+}
+
+label {
     display: block;
-    padding: .4rem;
-    margin: .5rem 0;
-    border: 1px solid #047CC2;
-    border-radius: .25rem;
+    margin-bottom: 8px;
+    color: #888;
+    font-size: 14px;
 }
-.btn.btn-block {
-    width: 100%;
+
+.details {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 20px;
 }
-.response {
-    /* add style rules here to change how the response appears */
+
+button {
+    display: block;
     width: 100%;
-    margin: .5rem 0;
-    padding: .5rem;
-    border: 1px solid #047CC2;
-    box-sizing: border-box;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.status {
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+    border-radius: 4px 4px 0 0;
+}
+
+.success {
+    background-color: #4caf50;
+    font-size: 15px;
+}
+
+.danger {
+    background-color: #f44336;
+    font-size: 15px;
+}
+
+.additional-details {
+    font-size: 14px;
+    color: #888;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.reason {
+    font-size: 14px;
+    color: #888;
+    margin-top: 0px;
+    text-align: center;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 0 0 4px 4px;
+}
+
+small {
+    color: #888;
+}
+
+#buttonHint {
+    margin-top: 1px;
+    text-align: center;
 }

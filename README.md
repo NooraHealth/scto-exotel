@@ -1,5 +1,3 @@
-# Exotel Calls & SMS
-
 ![](extras/call-preview.jpeg)
 ![](extras/Exotel-SMS.png)
 

@@ -1,5 +1,9 @@
-![](extras/call-preview.jpeg)
-![](extras/Exotel-SMS.png)
+
+
+
+| ![](extras/call-preview.jpeg)    |  ![](extras/Exotel-SMS.png) |
+| ----------- | ----------- |
+| Call Form      | SMS Form       |
 
 ## Description
 This plug-in allows for Exotel calls to be made or SMSes to be sent from within a SurveyCTO form. 

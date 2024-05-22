@@ -8,7 +8,7 @@
 ## Description
 This plug-in allows for Exotel calls to be made or SMSes to be sent from within a SurveyCTO form. 
 
-[![Download now](extras/download-button.png)](https://github.com/J-PAL-South-Asia/scto-exotel/raw/master/exotel-dialer.fieldplugin.zip)
+[![Download now](extras/download-button.png)](https://github.com/NooraHealth/scto-exotel/raw/master/exotel-dialer.fieldplugin.zip)
 
 [Exotel](https://exotel.com) is an ICT platform that allows for masking phone numbers on both ends of a phone call. This is helpful when enumerators have to use their own phones for calling respondents. Exotel  reroutes calls through fixed virtual numbers ensuring the privacy of both the enumerators and the respondents. 
 

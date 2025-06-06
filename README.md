@@ -51,7 +51,7 @@ To access all Exotel API credentials, go to the ‘API’ page in the ‘Setting
 ## More resources
 
 * **Test form**  
- [extras/test-form](https://github.com/J-PAL-South-Asia/scto-exotel/tree/master/extras/test-form)
+ [extras/test-form](https://github.com/NooraHealth/scto-exotel/tree/master/extras/test-form)
 * **Developer documentation**  
 Instructions and resources for developing your own field plug-ins.  
 [https://github.com/surveycto/Field-plug-in-resources](https://github.com/surveycto/Field-plug-in-resources)
